@@ -21,9 +21,9 @@
 		num_layer {
 			bindings = <
 	&kp GRAVE  &kp N1 &kp N2  &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL &kp BSPC    &bt BT_CLR &bootloader 
-	&kp TILDE &kp TILDE &kp EXCL  &kp AT  &kp HASH &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR  &kp LPAR  &kp  RPAR &kp GRAVE &trans &trans
-	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans                                      &bt BT_CLR
-	&trans &trans &trans &trans &trans &trans &trans    &trans                                            &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2
+	&kp TILDE &kp TILDE &kp EXCL  &kp AT  &kp HASH &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR  &kp LPAR  &kp  RPAR &kp GRAVE &kp NON_US_HASH &trans
+	&kp LSFT &kp NON_US_BSLH &trans &trans &trans &trans &trans &trans &trans &trans &EXT_POWER_OFF_CMD &EXT_POWER_ON_CMD  			  &bt BT_CLR
+	&trans &trans &trans &trans &trans &trans &trans    &trans                                          				  &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2
 			>;
 		};
 	};
